@@ -1,0 +1,71 @@
+{
+  "packageId": "com.rookahead.app",
+  "host": "rookahead.com",
+  "name": "Rookahead",
+  "launcherName": "Rookahead",
+  "display": "standalone",
+  "themeColor": "#09090A",
+  "themeColorDark": "#09090A",
+  "navigationColor": "#09090A",
+  "navigationColorDark": "#09090A",
+  "navigationDividerColor": "#09090A",
+  "navigationDividerColorDark": "#09090A",
+  "backgroundColor": "#09090A",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://rookahead.com/icon-512.png",
+  "maskableIconUrl": "https://rookahead.com/icon-maskable-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "../rookahead-android-keys/upload.keystore",
+    "alias": "upload"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Review a game",
+      "shortName": "Review",
+      "url": "https://rookahead.com/games",
+      "chosenIconUrl": "https://rookahead.com/icon-192.png"
+    },
+    {
+      "name": "Puzzles",
+      "shortName": "Puzzles",
+      "url": "https://rookahead.com/puzzles",
+      "chosenIconUrl": "https://rookahead.com/icon-192.png"
+    },
+    {
+      "name": "Play the computer",
+      "shortName": "Play",
+      "url": "https://rookahead.com/play",
+      "chosenIconUrl": "https://rookahead.com/icon-192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://rookahead.com/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://rookahead.com/",
+  "minSdkVersion": 24,
+  "orientation": "default",
+  "fingerprints": [
+    {
+      "name": "upload",
+      "value": "EE:14:A3:9E:94:A3:BA:28:DA:65:08:B6:26:65:2F:F0:C6:B2:82:B0:D7:C7:A8:70:3C:46:05:0E:B5:D0:7A:0E"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1.0.0"
+}
