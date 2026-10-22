@@ -37,9 +37,12 @@ Upload key SHA-256:
 
 Android only opens the site without a browser bar when rookahead.com vouches for the app, in
 `https://rookahead.com/.well-known/assetlinks.json` (in the main repo, `public/.well-known/`). It lists
-the SHA-256 of every key that signs the app: the upload key above (for APKs installed by hand), and the
-**app signing key** Google shows in Play Console → Test and release → App integrity once the first bundle
-is uploaded. Add that second fingerprint to assetlinks.json, or the Play Store version shows a URL bar.
+the SHA-256 of every key that signs the app: the upload key above (for APKs installed by hand), and
+Google Play's **app signing key** (what Play installs; Play Console → Test and release → App integrity):
+
+    7E:E7:F7:24:6C:8D:92:2C:68:CE:FC:C6:02:68:0C:9C:12:2A:9C:22:1A:D7:1D:B3:50:DC:0F:72:5B:A9:6E:80
+
+If either is missing from assetlinks.json, that version of the app opens with a browser bar.
 
 ## Store listing
 
